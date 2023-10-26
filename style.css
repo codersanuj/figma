@@ -1,0 +1,105 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-div{
+    background-color: #FFCD9E;
+    width: 1350px;
+height: 592px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+   
+ 
+}
+.content{
+    margin: 100px;
+}
+.content h1{
+    width: 562px;
+height: 108px;
+top: 83px;
+left: 136px;
+font-size: 40px;
+color: #282828;
+
+
+}
+.content p{
+    width: 370px;
+height: 81px;
+top: 219px;
+left: 136px;
+font-weight: 10px;
+
+
+}
+.main-img{
+    background-image: url( "dweep\ io\ 1.png");
+    width: 575px ; 
+    background-repeat: no-repeat;
+height: 575px;
+top: 20px;
+left: 818px;
+padding: 66.4px, 89.61px, 66.15px, 91.87px;
+
+}
+.content button{
+    width: 216px;
+height: 64px;
+top: 411px;
+left: 496px;
+border-radius: 8px;
+background-color: black;
+color: white;
+border: none  ;
+
+}
+.content h3{
+    font-weight: bolder;
+}
+.content input{
+    width: 350px;
+height: 64px;
+top: 411px;
+left: 158px;
+border: 2px solid black;
+border-radius: 8px;
+}
+.placeholder{
+    margin-top: 40px;
+}
+
+.footer-main{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+input::placeholder{
+    padding-left:15px ;
+    font-size: 15px;
+}
+
+.content-footer{
+    color: white;
+    padding-left: 100px;
+    line-height: 1.6;
+}
+.img-footer{
+    color: white;
+    padding-right: 100px;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.img-footer{
+    line-height: 1.4;
+}
